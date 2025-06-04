@@ -38,7 +38,7 @@ export const FrequencyBuckets = () => {
 
   
   return (
-    <Card className="h-full flex flex-col">
+    <Card>
       <CardHeader>Frequency Buckets</CardHeader>
       <div className="p-2 flex-grow flex flex-col">
         {frequencies.length === 0 ? (
