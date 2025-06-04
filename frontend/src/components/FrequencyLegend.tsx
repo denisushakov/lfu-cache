@@ -30,7 +30,7 @@ export const FrequencyLegend = () => {
         </div>
         
         <p className="text-xs text-gray-600 mt-2">
-          <strong>Note:</strong> When multiple items have the same frequency, LFU uses LRU (Least Recently Used) as a tie-breaker.
+          <strong>Note:</strong> When multiple items have the same frequency, LFU uses LFU (Least Frequency Used) as a tie-breaker.
         </p>
       </div>
     </Card>

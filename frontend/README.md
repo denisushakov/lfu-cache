@@ -1,13 +1,13 @@
 # <center>LFU-Cache Visualizer</center>
 
-This is my attempt to create a visualizer of LRU (Least Recently Used) Cache. I gained knowledge about LRU Cache from a comprehensive video tutorial by [Raj Vikramaditya](https://www.youtube.com/@takeUforward), which can be found [here](https://youtu.be/xDEuM5qa0zg).
+This is my attempt to create a visualizer of LFU (Least Recently Used) Cache. I gained knowledge about LFU Cache from a comprehensive video tutorial by [Raj Vikramaditya](https://www.youtube.com/@takeUforward), which can be found [here](https://youtu.be/xDEuM5qa0zg).
 
-You can watch it in action [here](https://lrucache.netlify.app)
+You can watch it in action [here](https://lfucache.netlify.app)
 <br />
 
 ## Overview
 
-The purpose of this visualizer is to provide an interactive and illustrative representation of how the LRU Cache algorithm works. By visualizing the caching process, it becomes easier to understand and grasp the underlying concepts and mechanisms.
+The purpose of this visualizer is to provide an interactive and illustrative representation of how the LFU Cache algorithm works. By visualizing the caching process, it becomes easier to understand and grasp the underlying concepts and mechanisms.
 
 <br />
 
@@ -23,7 +23,7 @@ The purpose of this visualizer is to provide an interactive and illustrative rep
 
 ## Run in your local
 
-- `git clone https://github.com/mayur124/lru-cache.git`
+- `git clone https://github.com/denisushakov/lfu-cache.git`
 - `yarn install`
 - `yarn start`
 

@@ -14,7 +14,7 @@ export const FrequencyBucketExplanation = () => {
         <h3 className="font-medium mt-3 mb-1">Key Components:</h3>
         <ul className="list-disc pl-5 space-y-1">
           <li><strong>Frequency Buckets:</strong> Items with the same access count are grouped together</li>
-          <li><strong>LRU Ordering:</strong> Within each frequency bucket, items are ordered by recency</li>
+          <li><strong>LFU Ordering:</strong> Within each frequency bucket, items are ordered by recency</li>
           <li><strong>Min Frequency Tracking:</strong> The cache keeps track of the minimum frequency for quick eviction</li>
         </ul>
         
