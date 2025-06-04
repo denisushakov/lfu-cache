@@ -1,7 +1,6 @@
 # <center>LFU-Cache Visualizer</center>
 
-This is my attempt to create a visualizer of LFU (Least Recently Used) Cache. I gained knowledge about LFU Cache from a comprehensive video tutorial by [Raj Vikramaditya](https://www.youtube.com/@takeUforward), which can be found [here](https://youtu.be/xDEuM5qa0zg).
-
+This is my attempt to create a visualizer of LFU (Least Recently Used) Cache.
 You can watch it in action [here](https://lfucache.netlify.app)
 <br />
 
@@ -26,21 +25,3 @@ The purpose of this visualizer is to provide an interactive and illustrative rep
 - `git clone https://github.com/denisushakov/lfu-cache.git`
 - `yarn install`
 - `yarn start`
-
-<br />
-
-## Screenshots
-
-![](screenshots/1.png)
-
-<br />
-
-![](screenshots/2.png)
-
-<br />
-
-![](screenshots/3.jpg)
-
-<br />
-
-![](screenshots/4.png)
