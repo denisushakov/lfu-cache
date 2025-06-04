@@ -1,6 +1,6 @@
 import React, { FC, Fragment, useEffect, useRef } from 'react';
 import { useLFUStore } from '../../store/lfu-store';
-import { CardHeader } from '../common';
+import { Card, CardHeader } from '../common';
 import { getAlgo, putAlgo } from './algorithm-steps';
 import { TAlgoStep } from './algorithm.type';
 
@@ -117,7 +117,7 @@ export const Algorithm: React.FC = () => {
   }, [activeStep]);
   
   return (
-    <>
+    <Card>
       <CardHeader>Algorithm</CardHeader>
       <ol
         ref={olRef}
@@ -131,7 +131,7 @@ export const Algorithm: React.FC = () => {
           level={1}
         />
       </ol>
-    </>
+    </Card>
   );
 };
 

@@ -46,9 +46,9 @@ function App() {
         </div>
 
         <div className="lg:col-span-5 flex flex-col gap-4">
-          <Card className="h-full">
+          <div className="md:col-span-1 flex flex-col gap-4">
             <Algorithm />
-          </Card>
+          </div>
           <div className="md:col-span-1 flex flex-col gap-4">
             <OperationHistory />
           </div>
